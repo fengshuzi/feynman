@@ -1,1 +1,0 @@
-import{_ as t,V as a,W as c,X as e,Y as r}from"./framework-9a29aaa0.js";const s={},o=e("h1",{id:"《搞定》读书笔记",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#《搞定》读书笔记","aria-hidden":"true"},"#"),r(" 《搞定》读书笔记")],-1),n=[o];function _(d,i){return a(),c("div",null,n)}const l=t(s,[["render",_],["__file","gtd.html.vue"]]);export{l as default};
