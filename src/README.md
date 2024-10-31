@@ -4,7 +4,7 @@ layout: BlogHome
 icon: home
 title: 博客
 heroImage: /logo.svg
-heroText: 漂泊者及其影子
+heroText: 程序员费曼
 heroFullScreen: true
 tagline: Talk is cheap, show me the code.
 projects:

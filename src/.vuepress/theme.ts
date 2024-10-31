@@ -14,7 +14,7 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
-  repo: "fengshuzi/javaTips",
+  repo: "fengshuzi/feynman",
 
   docsDir: "src",
   prev: false,
