@@ -8,7 +8,7 @@ export default defineUserConfig({
     "/": {
       lang: "zh-CN",
       title: "漂泊者及其影子",
-      description: "Talk is cheap, show me the code.",
+      description: "Talk is  not cheap,  code is cheap!!!",
     }
   },
 
