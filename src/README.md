@@ -6,7 +6,7 @@ title: 博客
 heroImage: /logo.svg
 heroText: 程序员费曼
 heroFullScreen: true
-tagline: Talk is cheap, show me the code.
+tagline: Talk is not cheap, code is cheap.
 projects:
   - icon: article
     name: 关于我
