@@ -20,7 +20,7 @@ interface Props {
 
 const props = withDefaults(defineProps<Props>(), {
   adFormat: 'auto',
-  adClient: 'ca-pub-XXXXXXXXXXXXXXXX' // 替换为你的 AdSense 客户端 ID
+  adClient: 'ca-pub-2459384956460327' // 你的 AdSense 客户端 ID
 });
 
 const adStyle = {

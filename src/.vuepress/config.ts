@@ -22,7 +22,7 @@ export default defineUserConfig({
       'script',
       {
         async: true,
-        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX',
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2459384956460327',
         crossorigin: 'anonymous'
       }
     ]
