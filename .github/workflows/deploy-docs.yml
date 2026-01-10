@@ -35,7 +35,6 @@ jobs:
         run: |-
           npm run docs:build
           > src/.vuepress/dist/.nojekyll
-          echo "blog.fengshuzi.com" > src/.vuepress/dist/CNAME
 
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
