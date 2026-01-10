@@ -3,11 +3,11 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://www.fengshuzi.com",
 
   author: {
     name: "漂泊者及其影子",
-    url: "https://blog.fengshuzi.com",
+    url: "https://www.fengshuzi.com",
   },
 
   iconAssets: "iconfont",
