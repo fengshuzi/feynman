@@ -19,6 +19,13 @@ export default defineUserConfig({
   // Google AdSense 配置
   head: [
     [
+      'meta',
+      {
+        name: 'google-adsense-account',
+        content: 'ca-pub-2459384956460327'
+      }
+    ],
+    [
       'script',
       {
         async: true,
