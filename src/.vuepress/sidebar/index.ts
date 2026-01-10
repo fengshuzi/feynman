@@ -23,9 +23,21 @@ export const zhSidebar = sidebar({
       collapsible: true,
       prefix: "feynman/sport/",
       children: "structure",
-    }
-
-    ,
+    },
+    {
+      text: "Obsidian 插件",
+      icon: "plugin",
+      collapsible: true,
+      prefix: "feynman/obsidian/",
+      children: "structure",
+    },
+    {
+      text: "Logseq 二次开发",
+      icon: "code",
+      collapsible: true,
+      prefix: "feynman/logseq/",
+      children: "structure",
+    },
     "about"
   ],
 });
