@@ -294,4 +294,4 @@ MIT
 
 https://github.com/fengshuzi/obsidian-reminder-sync
 
-可从https://github.com/fengshuzi/obsidian-reminder-sync/tags下载打包文件，也可以自己二次开发
+可从 https://github.com/fengshuzi/obsidian-reminder-sync/tags 下载打包文件，也可以自己二次开发 
