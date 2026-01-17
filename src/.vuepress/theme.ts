@@ -6,7 +6,7 @@ export default hopeTheme({
   hostname: "https://www.fengshuzi.com",
 
   author: {
-    name: "漂泊者及其影子",
+    name: "程序员费曼",
     url: "https://www.fengshuzi.com",
   },
 
@@ -39,7 +39,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "漂泊者及其影子",
+      footer: "程序员费曼",
 
 
 

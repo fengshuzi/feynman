@@ -7,7 +7,7 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "漂泊者及其影子",
+      title: "程序员费曼",
       description: "Talk is  not cheap,  code is cheap!!!",
     }
   },
