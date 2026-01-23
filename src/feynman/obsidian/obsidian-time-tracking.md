@@ -1,5 +1,5 @@
 ---
-title: 基于柳比歇夫时间统计法设计的obsidian 管理插件
+title: 基于柳比歇夫时间统计法设计的obsidian 时间管理插件
 date: 2026-01-10
 category:
   - Obsidian
