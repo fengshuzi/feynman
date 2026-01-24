@@ -2,7 +2,6 @@
 home: true
 layout: BlogHome
 icon: home
-heroText: 
-tagline: 
+hero: false
 footer: 分享java小手段
 ---
