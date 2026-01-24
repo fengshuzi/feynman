@@ -1,1 +1,0 @@
-import{_ as e,V as _,W as t,X as c}from"./framework-c954d91f.js";const o={},s=c("p",null,"xxx",-1),n=[s];function r(a,l){return _(),t("div",null,n)}const f=e(o,[["render",r],["__file","2023年没有梦想.html.vue"]]);export{f as default};
