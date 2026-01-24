@@ -2,7 +2,6 @@ import { sidebar } from "vuepress-theme-hope";
 
 export const zhSidebar = sidebar({
   "/": [
-    "",
     {
       text: "alfred小手段",
       icon: "creative",
