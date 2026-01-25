@@ -12,6 +12,12 @@ tag:
 
 从 macOS 备忘录同步笔记到 Obsidian 仓库的备忘录文件夹。
 
+
+## 下载地址
+https://github.com/fengshuzi/obsidian-notes
+
+
+
 ## 功能特性
 
 - 🔄 从 macOS 备忘录同步笔记到 Obsidian
@@ -105,6 +111,8 @@ brew install pandoc
 ## 许可证
 
 MIT
+
+
 
 ## 注意事项
 
