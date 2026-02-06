@@ -15,4 +15,4 @@ backtotop: false
 
 # 关于我
 
-> 一个没有找到梦想的程序员
+> obsidain 插件分享
