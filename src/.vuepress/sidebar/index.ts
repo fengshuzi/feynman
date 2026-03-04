@@ -37,6 +37,13 @@ export const zhSidebar = sidebar({
       prefix: "feynman/logseq/",
       children: "structure",
     },
+    {
+      text: "AI 工具",
+      icon: "robot",
+      collapsible: true,
+      prefix: "feynman/ai/",
+      children: "structure",
+    },
     "about"
   ],
 });
