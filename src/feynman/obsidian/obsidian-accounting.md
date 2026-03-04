@@ -58,7 +58,7 @@ npm run build
 3. 默认值为 `journals`，可修改为如 `日记`、`Daily/2024` 等自定义路径
 4. 修改后会自动保存并刷新数据
 
-![记账管理插件设置页面](obsidian-accounting-settings.png)
+![记账管理插件设置页面](./assets/obsidian-accounting-settings.png)
 
 **说明**：
 - 路径为相对 vault 根目录，例如 `journals` 表示根目录下的 `journals` 文件夹
@@ -180,7 +180,7 @@ npm run build
 3. 默认值为 `journals`，可修改为如 `日记`、`Daily/2024`、`Bike/journals` 等
 4. 修改后会自动保存并刷新数据
 
-![记账管理插件设置页面](obsidian-accounting-settings.png)
+![记账管理插件设置页面](./assets/obsidian-accounting-settings.png)
 
 **配置说明**：
 - **路径格式**：相对 vault 根目录，例如 `journals` 表示根目录下的 `journals` 文件夹
