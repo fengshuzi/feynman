@@ -23,7 +23,7 @@ OpenClaw 是一个开源的 AI 代理工具，它能够：
 - 🌐 **Web 界面**：提供直观的 Web 控制面板
 - 🔐 **安全可靠**：支持设备配对认证机制
 
-![OpenClaw 界面](./assets/openclaude.png)
+![OpenClaw 界面](./assets/openclaw.png)
 
 ## 环境要求
 
