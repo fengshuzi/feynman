@@ -14,7 +14,7 @@ tag:
 
 基于 Obsidian 日记文件的智能记账管理插件，能够自动识别和统计您在日记中的记账记录。无需打开专门的记账 App，在写日记的同时顺便记账，零负担养成记账习惯。
 
-![image-20260318142927017](/Users/lizhifeng/fengshuzi/src/jarvis/obsidian-plugins/feynman/src/feynman/obsidian/assets/image-20260318142927017.png)
+![image-20260318142927017](./assets/image-20260318142927017.png)
 
 ## 为什么选择这个插件？
 
@@ -67,7 +67,7 @@ npm install && npm run build
 
 在「日记文件夹路径」中填写日记文件夹路径（如 `journals`、`日记`），默认为 `journals`。
 
-![image-20260318143023006](/Users/lizhifeng/fengshuzi/src/jarvis/obsidian-plugins/feynman/src/feynman/obsidian/assets/image-20260318143023006.png)
+![image-20260318143023006](./assets/image-20260318143023006.png)
 
 ### 第二步：在日记中记账
 
@@ -156,7 +156,7 @@ npm install && npm run build
 4. 点击「复制」直接写入今天，或点击「编辑」修改金额后写入
 5. 自动跳转到今天的日记笔记
 
-![快速记账弹窗](/Users/lizhifeng/fengshuzi/src/jarvis/obsidian-plugins/feynman/src/feynman/obsidian/assets/image-20260318141149598.png)
+![快速记账弹窗](./assets/image-20260318141149598.png)
 
 ### 配置
 
