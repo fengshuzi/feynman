@@ -7,9 +7,9 @@ import{_ as d,V as t,W as s,X as e,Y as a,Z as o,$ as n,F as r}from"./framework-
 <span class="token list punctuation">-</span> 15:00 #jf 房租2366.85 闪念笔记 每日记账
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>解析规则：<code>- HH:mm</code> 开头的一行会被识别为一条闪念，后面的 <code>#tag</code> 会被提取为标签，其余为内容。</p><h3 id="任务格式" tabindex="-1"><a class="header-anchor" href="#任务格式" aria-hidden="true">#</a> 任务格式</h3><p>插件支持多种任务格式，所有任务都会被识别为闪念并显示对应的状态：</p><h4 id="_1-markdown-复选框" tabindex="-1"><a class="header-anchor" href="#_1-markdown-复选框" aria-hidden="true">#</a> 1. Markdown 复选框</h4><div class="language-markdown line-numbers-mode" data-ext="md"><pre class="language-markdown"><code><span class="token list punctuation">-</span> [ ] 13:33 完成项目报告
 <span class="token list punctuation">-</span> [x] 14:00 回复邮件
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="_2-关键词任务" tabindex="-1"><a class="header-anchor" href="#_2-关键词任务" aria-hidden="true">#</a> 2. 关键词任务</h4><div class="language-markdown line-numbers-mode" data-ext="md"><pre class="language-markdown"><code><span class="token list punctuation">-</span> TODO 15:00 待办事项
-<span class="token list punctuation">-</span> DOING 15:30 正在进行
-<span class="token list punctuation">-</span> DONE 16:00 已完成
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="_2-关键词任务" tabindex="-1"><a class="header-anchor" href="#_2-关键词任务" aria-hidden="true">#</a> 2. 关键词任务</h4><div class="language-markdown line-numbers-mode" data-ext="md"><pre class="language-markdown"><code><span class="token list punctuation">-</span> [ ] 15:00 待办事项
+<span class="token list punctuation">-</span> [ ] 15:30 正在进行
+<span class="token list punctuation">-</span> [x] 16:00 已完成
 <span class="token list punctuation">-</span> NOW 16:30 立即执行
 <span class="token list punctuation">-</span> LATER 17:00 稍后处理
 <span class="token list punctuation">-</span> WAITING 17:30 等待中
@@ -23,7 +23,7 @@ import{_ as d,V as t,W as s,X as e,Y as a,Z as o,$ as n,F as r}from"./framework-
 <span class="token list punctuation">-</span> [ ] 13:33 完成报告
 
 <span class="token title important"><span class="token punctuation">#</span> 点击复选框后变为 DOING（记录开始时间）</span>
-<span class="token list punctuation">-</span> DOING 14:00 <span class="token comment">&lt;!-- ts:2024-02-09T14:00:00.000Z|source:checkbox --&gt;</span> 完成报告
+<span class="token list punctuation">-</span> [ ] 14:00 <span class="token comment">&lt;!-- ts:2024-02-09T14:00:00.000Z|source:checkbox --&gt;</span> 完成报告
 
 <span class="token title important"><span class="token punctuation">#</span> 再次点击后变为已完成（显示耗时）</span>
 <span class="token list punctuation">-</span> [x] 13:33 完成报告 25分钟
@@ -33,4 +33,4 @@ import{_ as d,V as t,W as s,X as e,Y as a,Z as o,$ as n,F as r}from"./framework-
 <span class="token function">npm</span> run dev      <span class="token comment"># 开发模式</span>
 <span class="token function">npm</span> run build    <span class="token comment"># 构建</span>
 <span class="token function">npm</span> run release  <span class="token comment"># 发布到 GitHub</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="许可证" tabindex="-1"><a class="header-anchor" href="#许可证" aria-hidden="true">#</a> 许可证</h2><p>MIT License</p>`,129);function I(T,w){const i=r("ExternalLinkIcon");return t(),s("div",null,[k,e("ol",null,[e("li",null,[a("前往仓库 "),e("a",_,[a("Releases"),o(i)]),a(" 下载最新版本")]),O,D,N,E]),j])}const q=d(A,[["render",I],["__file","obsidian-memos.html.vue"]]);export{q as default};
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="许可证" tabindex="-1"><a class="header-anchor" href="#许可证" aria-hidden="true">#</a> 许可证</h2><p>MIT License</p>`,129);function w(T,y){const i=r("ExternalLinkIcon");return t(),s("div",null,[k,e("ol",null,[e("li",null,[a("前往仓库 "),e("a",_,[a("Releases"),o(i)]),a(" 下载最新版本")]),O,D,N,E]),j])}const q=d(A,[["render",w],["__file","obsidian-memos.html.vue"]]);export{q as default};
