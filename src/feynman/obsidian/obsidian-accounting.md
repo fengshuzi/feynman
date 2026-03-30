@@ -246,7 +246,7 @@ journals/bill.md
 
 弹出确认框：
 
-![image-20260330113602744](/Users/lizhifeng/fengshuzi/src/jarvis/obsidian-plugins/feynman/src/feynman/obsidian/assets/image-20260330113602744.png)
+![image-20260330113602744](./assets/image-20260330113602744.png)
 
 确认框显示：
 
