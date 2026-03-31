@@ -4,7 +4,7 @@
       <span class="wechat-donate-icon">☕</span>
       <span class="wechat-donate-text">如果这篇文章对你有帮助，欢迎请作者喝杯咖啡</span>
       <button class="wechat-donate-btn" @click="showQr = !showQr">
-        {{ showQr ? '收起' : '微信打赏' }}
+        {{ showQr ? '收起二维码' : '展开二维码' }}
       </button>
     </div>
     <Transition name="donate-fade">
@@ -18,7 +18,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
-const showQr = ref(false);
+const showQr = ref(true);
 </script>
 
 <style scoped>
