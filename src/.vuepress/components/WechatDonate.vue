@@ -2,15 +2,15 @@
   <div class="wechat-donate">
     <div class="wechat-donate-inner">
       <span class="wechat-donate-icon">☕</span>
-      <span class="wechat-donate-text">如果这篇文章对你有帮助，欢迎请作者喝杯咖啡</span>
+      <span class="wechat-donate-text">觉得有用？请作者喝杯咖啡 ☕</span>
       <button class="wechat-donate-btn" @click="showQr = !showQr">
-        {{ showQr ? '收起二维码' : '展开二维码' }}
+        {{ showQr ? '收起' : '展开二维码' }}
       </button>
     </div>
     <Transition name="donate-fade">
       <div v-if="showQr" class="wechat-donate-qr">
         <img src="/assets/wechat-donate.jpg" alt="微信打赏二维码" width="180" />
-        <p class="wechat-donate-hint">微信扫码打赏，感谢支持 🙏</p>
+        <p class="wechat-donate-hint">觉得有用，请作者喝杯咖啡 ☕</p>
       </div>
     </Transition>
   </div>
