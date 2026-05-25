@@ -46,7 +46,7 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: "分享java小手段",
+        description: "一个程序员的技术博客",
         intro: "about.html",
       },
 
