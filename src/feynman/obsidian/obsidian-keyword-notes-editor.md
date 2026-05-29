@@ -106,17 +106,6 @@ journal|日记|📓,projects|项目文档|📁
 
 保存后，侧边栏就会出现对应的入口。
 
-## 技术细节
-
-- **最低 Obsidian 版本**: 1.7.2
-- **是否桌面端限制**: 否，支持 macOS / Windows / Linux
-- **界面依赖**: 基于 Hover Editor 的工作区叶子生成，实现无冲突的多视图
-- **性能优化**: 无限滚动懒加载，即使笔记库很大也不会卡顿
-
-## 致谢
-
-- [Hover Editor](https://github.com/nothingislost/obsidian-hover-editor)：工作区叶子生成代码
-
 ## 结语
 
 Keyword Notes Editor 将 Logseq 的标签视图体验完整地移植到了 Obsidian。无论你是需要做周回顾、整理项目文档，还是按主题聚合素材，这个插件都能显著提升笔记浏览效率。配合键盘导航和折叠/展开功能，即使面对大量笔记也能从容应对。
