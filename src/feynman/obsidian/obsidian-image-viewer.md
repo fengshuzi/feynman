@@ -80,6 +80,8 @@ tag:
 
 ## 安装
 
+> 该插件已上架 Obsidian 社区市场，打开 Obsidian 设置 → 第三方插件 → 浏览，搜索 **Image Viewer** 或 **fengshuzi** 即可安装。
+
 ### 方式一：手动安装
 
 1. 下载最新版本的插件文件：

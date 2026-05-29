@@ -58,6 +58,8 @@ Obsidian 原生不支持这些批量操作，需要一个一个手动处理。�
 
 ## 安装方法
 
+> 该插件已上架 Obsidian 社区市场，打开 Obsidian 设置 → 第三方插件 → 浏览，搜索 **File Commander** 或 **fengshuzi** 即可安装。
+
 ### 从 GitHub Release 安装（推荐）
 
 1. 前往 [Releases](https://github.com/fengshuzi/obsidian-batch-file-manager/releases) 页面下载最新版本

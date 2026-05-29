@@ -14,6 +14,8 @@ tag:
 
 
 ## 下载地址
+
+> 该插件已上架 Obsidian 社区市场，搜索 **fengshuzi** 即可找到。
 https://github.com/fengshuzi/obsidian-notes
 
 

@@ -16,6 +16,8 @@ tag:
 
 ## 下载地址
 
+> 该插件已上架 Obsidian 社区市场，打开 Obsidian 设置 → 第三方插件 → 浏览，搜索 **AI Search** 或 **fengshuzi** 即可安装。
+
 - **GitHub**: https://github.com/fengshuzi/obsidian-ai-search
 - **油猴脚本**: 见本文底部
 

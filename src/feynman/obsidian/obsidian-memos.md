@@ -30,6 +30,8 @@ tag:
 
 ## 安装方法
 
+> 该插件已上架 Obsidian 社区市场，打开 Obsidian 设置 → 第三方插件 → 浏览，搜索 **Lite Memo** 或 **fengshuzi** 即可安装。
+
 ### 从 GitHub Release 安装（推荐）
 
 1. 前往仓库 [Releases](https://github.com/fengshuzi/obsidian-memos/releases) 下载最新版本

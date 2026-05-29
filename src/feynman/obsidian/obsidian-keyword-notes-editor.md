@@ -59,6 +59,8 @@ Obsidian 原生不支持在一个页面内同时编辑多篇笔记，需要来�
 
 ## 安装
 
+> 该插件已上架 Obsidian 社区市场，打开 Obsidian 设置 → 第三方插件 → 浏览，搜索 **Keyword Notes Editor** 或 **fengshuzi** 即可安装。
+
 ### 方式一：从 GitHub Release 安装（推荐）
 
 1. 前往 [Releases](https://github.com/你的用户名/keyword-notes-editor/releases) 页面下载最新版本
