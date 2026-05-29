@@ -1,171 +1,126 @@
 ---
-title: Obsidian 多笔记编辑器插件
-date: 2026-03-04
+title: "Keyword Notes Editor - 在 Obsidian 中像 Logseq 一样用标签管理笔记"
+date: 2026-05-29
 category:
   - Obsidian
 tag:
-  - 插件开发
-  - TypeScript
+  - 插件
   - 效率工具
+  - 知识管理
 ---
 
-# Keyword Notes Editor
+# Keyword Notes Editor - 在 Obsidian 中像 Logseq 一样用标签管理笔记
 
-基于关键词标签查看和编辑多篇笔记的 Obsidian 插件，类似 Logseq 的标签视图功能，让你在一个页面内同时编辑多篇笔记。
+如果你同时使用 Logseq 和 Obsidian，一定会被 Logseq 的标签视图功能吸引——点击一个标签，所有相关笔记一目了然。然而当你在 Obsidian 中工作时，这个功能却缺失了。
 
-## 为什么开发这个插件？
+**Keyword Notes Editor** 正是为了填补这个空白而生的插件。它将 Logseq 的标签视图体验带入了 Obsidian，让你可以用关键词、文件夹、甚至多标签聚合来组织和浏览笔记。
 
-在使用 Obsidian 进行知识管理时，经常会遇到需要同时查看和编辑多篇相关笔记的场景：
+## 插件地址
 
-- **周回顾**：想查看本周所有日记
-- **项目整理**：需要编辑某个文件夹下的所有笔记
-- **标签管理**：查看带有特定标签的所有内容
+- **GitHub**: https://github.com/fengshuzi/keyword-notes-editor
+- **Obsidian 社区市场**: 搜索 `Keyword Notes Editor` 或 `fengshuzi`
 
-Obsidian 原生不支持在一个页面内同时编辑多篇笔记，需要来回切换。这个插件就是为了解决这个问题而开发的。
+## 核心功能
 
-## 功能特性
+### 关键词侧边栏
 
-### 核心功能
+配置你关心的关键词后，它们会出现在左侧边栏。点击任意关键词，所有带该标签的笔记就会在一个可滚动视图中展示出来——不需要切换标签页，不需要来回翻找。
 
-- 📝 **多笔记编辑**：在一个页面内同时编辑多篇笔记，无需切换
-- 📅 **日记视图**：快速查看和编辑日记笔记
-- 📁 **文件夹视图**：查看特定文件夹下的所有笔记
-- 🏷️ **标签视图**：查看带有特定标签的所有笔记
+```
+配置格式: tag|显示名|图标
+示例: work|工作|💼,project|项目|📋
+```
+
+### 多级子标签树
+
+如果你的标签体系有层级结构（如 `test/work/meeting`），插件会自动识别并构建可折叠的树状导航。展开父标签可以浏览子标签，点击叶子标签则精准筛选。
+
+### 标签聚合查询
+
+通过 `+` 分隔符组合多个标签，可以实现「或」查询——命中任一标签的笔记都会被纳入：
+
+```
+p1+p2+p3+p4|四象限
+```
+
+点击「四象限」，所有标记了 `p1`、`p2`、`p3` 或 `p4` 的笔记都会显示出来。
+
+### 文件夹视角
+
+除了标签，你还可以在侧边栏添加文件夹路径。一键查看某个目录下所有笔记，特别适合项目文档管理：
+
+```
+配置格式: path|显示名|图标
+示例: projects/work|工作项目|📁,archive|归档|🗄️
+```
 
 ### 时间筛选
 
-- 本周、上周
-- 本月、上月
-- 本年、去年
-- 本季度、上季度
-- 全部笔记
-- 自定义日期范围
+用顶部的日历图标按时间范围筛选笔记：本周、上月、本季度，甚至自定义日期区间。
 
-### 快捷操作
+### 批量浏览与编辑
 
-- ⏰ **日记按钮**：快速查看最近N天或本周的日记
-- 🎯 **自定义预设**：保存常用的文件夹或标签配置
-- ⌨️ **键盘导航**：使用上下键在笔记间快速导航
+所有匹配的笔记会在一个页面中按顺序展示。你可以用上下方向键在笔记之间快速跳转，可以展开/折叠所有笔记，可以隐藏 frontmatter 和反向链接——界面完全可定制。
 
-### 显示选项
+## 典型使用场景
 
-- 隐藏 frontmatter
-- 隐藏反向链接
-- 自定义排序（按创建时间/修改时间）
-
-## 系统要求
-
-- Obsidian 1.2.8 或更高版本
+| 场景 | 配置 | 操作 |
+|------|------|------|
+| 周回顾 | 日记文件夹 | 点击即看本周所有日记 |
+| 项目管理 | `project/work` | 聚合一个项目的所有相关笔记 |
+| 优先级整理 | `p1+p2+p3+p4` | 四象限法分类的任务总览 |
+| 写作素材 | `idea+draft+writing` | 收集某个主题的所有草稿和成品 |
+| 归档整理 | `archive/2024` | 按年份归档的旧笔记浏览 |
 
 ## 安装
 
-> 该插件已上架 Obsidian 社区市场，打开 Obsidian 设置 → 第三方插件 → 浏览，搜索 **Keyword Notes Editor** 或 **fengshuzi** 即可安装。
+> 该插件已上架 Obsidian 社区市场。打开 **设置 → 第三方插件 → 浏览**，搜索 **Keyword Notes Editor** 或 **fengshuzi** 即可一键安装。
 
-### 方式一：从 GitHub Release 安装（推荐）
+### 从 GitHub 手动安装
 
-1. 前往 [Releases](https://github.com/你的用户名/keyword-notes-editor/releases) 页面下载最新版本
-2. 下载以下文件：
-   - `main.js`
-   - `manifest.json`
-   - `styles.css`
-3. 在你的 Obsidian 库中创建插件目录：`.obsidian/plugins/keyword-notes-editor/`
-4. 将下载的文件复制到该目录
-5. 重启 Obsidian 或刷新插件列表
-6. 在设置中启用"Keyword Notes Editor"插件
+1. 前往 [Releases](https://github.com/fengshuzi/keyword-notes-editor/releases) 下载最新版
+2. 下载 `main.js`、`manifest.json`、`styles.css` 三个文件
+3. 放入 vault 的 `.obsidian/plugins/keyword-notes-editor/` 目录
+4. 重启 Obsidian 并启用插件
 
-### 方式二：手动编译
+### 从源码构建
 
 ```bash
-cd /path/to/your/vault/.obsidian/plugins
-git clone https://github.com/你的用户名/keyword-notes-editor.git
+git clone https://github.com/fengshuzi/keyword-notes-editor.git
 cd keyword-notes-editor
 npm install
 npm run build
 ```
 
-## 使用方法
+## 配置示例
 
-### 打开编辑器
+打开插件设置，填入你的关键词和文件夹配置：
 
-- 点击左侧边栏的日历图标
-- 或使用命令面板搜索 "Open Daily Notes Editor"
+```
+# 关键词（标签）
+work|工作|💼,project|项目|📋,p1+p2+p3+p4|四象限|🎯
 
-### 日记快捷按钮
-
-侧边栏提供两个快捷按钮：
-
-- **📔 按钮**：查看最近N天的日记（默认3天，可在设置中配置）
-- **📅 按钮**：查看本周的日记
-
-### 视图模式切换
-
-1. **日记模式**：查看日记笔记
-2. **文件夹模式**：查看特定文件夹下的笔记
-3. **标签模式**：查看带有特定标签的笔记
-
-### 保存预设
-
-将当前的文件夹或标签选择保存为预设，方便下次快速访问。
-
-### 右键菜单
-
-在文件浏览器中右键点击文件夹，可以快速在编辑器中打开该文件夹的所有笔记。
-
-## 设置选项
-
-| 选项 | 说明 |
-|------|------|
-| 隐藏 frontmatter | 在日记中隐藏 frontmatter |
-| 隐藏反向链接 | 在日记中隐藏反向链接 |
-| 启动时打开 | Obsidian 启动时自动创建今日日记并打开编辑器 |
-| 最近天数 | 配置"最近N天"按钮显示的天数（默认3天） |
-| 显示关键词按钮 | 是否在侧边栏显示关键词/文件夹按钮 |
-
-## 特殊功能
-
-### journals 文件夹优化
-
-当查看 `journals` 文件夹时，插件会：
-
-- 根据文件名日期（yyyy-mm-dd.md）进行筛选
-- 而不是根据文件修改时间
-- 确保日记按正确的日期范围显示
-
-## 开发
-
-```bash
-# 安装依赖
-npm install
-
-# 开发模式
-npm run dev
-
-# 构建
-npm run build
-
-# 部署到本地vault
-npm run deploy
-
-# 发布到GitHub
-npm run release
+# 文件夹
+journal|日记|📓,projects|项目文档|📁
 ```
 
-## 技术实现
+保存后，侧边栏就会出现对应的入口。
 
-- TypeScript + Obsidian API
-- 响应式 UI 设计
-- 基于 Hover Editor 的工作区叶子生成
-- 使用 Obsidian Daily Notes Interface 处理日记
+## 技术细节
+
+- **最低 Obsidian 版本**: 1.7.2
+- **是否桌面端限制**: 否，支持 macOS / Windows / Linux
+- **界面依赖**: 基于 Hover Editor 的工作区叶子生成，实现无冲突的多视图
+- **性能优化**: 无限滚动懒加载，即使笔记库很大也不会卡顿
 
 ## 致谢
 
 - [Hover Editor](https://github.com/nothingislost/obsidian-hover-editor)：工作区叶子生成代码
-- [Obsidian Daily Notes Interface](https://github.com/liamcain/obsidian-daily-notes-interface)：日记API
 
-## 许可证
+## 结语
 
-MIT
+Keyword Notes Editor 将 Logseq 的标签视图体验完整地移植到了 Obsidian。无论你是需要做周回顾、整理项目文档，还是按主题聚合素材，这个插件都能显著提升笔记浏览效率。配合键盘导航和折叠/展开功能，即使面对大量笔记也能从容应对。
 
 ---
 
-📝 **开始在一个页面编辑多篇笔记吧！**
+💡 **试试看**: 从 Obsidian 社区市场安装后，先配置一个你最常用的标签或文件夹，感受一下「一键总览」的体验。
