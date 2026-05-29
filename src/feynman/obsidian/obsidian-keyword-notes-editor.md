@@ -1,5 +1,5 @@
 ---
-title: "Keyword Notes Editor - 在 Obsidian 中像 Logseq 一样用标签管理笔记"
+title: "Keyword Notes Editor - 一键聚合多标签，让笔记浏览效率翻倍"
 date: 2026-05-29
 category:
   - Obsidian
@@ -9,11 +9,9 @@ tag:
   - 知识管理
 ---
 
-# Keyword Notes Editor - 在 Obsidian 中像 Logseq 一样用标签管理笔记
+# Keyword Notes Editor - 一键聚合多标签，让笔记浏览效率翻倍
 
-如果你同时使用 Logseq 和 Obsidian，一定会被 Logseq 的标签视图功能吸引——点击一个标签，所有相关笔记一目了然。然而当你在 Obsidian 中工作时，这个功能却缺失了。
-
-**Keyword Notes Editor** 正是为了填补这个空白而生的插件。它将 Logseq 的标签视图体验带入了 Obsidian，让你可以用关键词、文件夹、甚至多标签聚合来组织和浏览笔记。
+在 Obsidian 中搜索笔记时，你是否经常需要来回切换标签页、或在一个个文件中反复跳转？**Keyword Notes Editor** 正是为解决这个问题而生——它将分散在各个角落的相关笔记聚合到一个页面，支持多标签组合、层级子标签、文件夹视角，让批量浏览和编辑变得轻而易举。
 
 ## 插件地址
 
@@ -108,7 +106,7 @@ journal|日记|📓,projects|项目文档|📁
 
 ## 结语
 
-Keyword Notes Editor 将 Logseq 的标签视图体验完整地移植到了 Obsidian。无论你是需要做周回顾、整理项目文档，还是按主题聚合素材，这个插件都能显著提升笔记浏览效率。配合键盘导航和折叠/展开功能，即使面对大量笔记也能从容应对。
+Keyword Notes Editor 带来的是一种全新的笔记浏览体验——一键聚合多个标签和文件夹，无需来回切换即可批量浏览和编辑。无论你是需要做周回顾、整理项目文档，还是按主题聚合素材，这个插件都能显著提升效率。配合键盘导航和折叠/展开功能，即使面对大量笔记也能从容应对。
 
 ---
 
