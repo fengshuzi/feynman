@@ -29,7 +29,7 @@
 
     <Transition name="donate-fade">
       <div v-if="showContact" class="wechat-donate-qr">
-        <img src="/assets/wecom-contact.jpg" alt="加好友二维码" width="180" />
+        <img src="/assets/wechat-contact.jpg" alt="加好友二维码" width="180" />
         <p class="wechat-donate-hint">扫码加好友，聊聊插件定制化开发 🤝</p>
       </div>
     </Transition>
