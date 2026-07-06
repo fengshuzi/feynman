@@ -1,16 +1,36 @@
 <template>
   <div class="wechat-donate">
-    <div class="wechat-donate-inner">
-      <span class="wechat-donate-icon">☕</span>
-      <span class="wechat-donate-text">觉得有用？请作者喝杯咖啡 ☕</span>
-      <button class="wechat-donate-btn" @click="showQr = !showQr">
-        {{ showQr ? '收起' : '展开二维码' }}
-      </button>
+    <div class="wechat-donate-row">
+      <!-- 请喝咖啡 -->
+      <div class="wechat-donate-inner">
+        <span class="wechat-donate-icon">☕</span>
+        <span class="wechat-donate-text">觉得有用？请作者喝杯咖啡 ☕</span>
+        <button class="wechat-donate-btn" @click="showDonate = !showDonate">
+          {{ showDonate ? '收起' : '展开二维码' }}
+        </button>
+      </div>
+
+      <!-- 加好友 · 插件定制化开发 -->
+      <div class="wechat-donate-inner">
+        <span class="wechat-donate-icon">🤝</span>
+        <span class="wechat-donate-text">加好友 · 插件定制化开发</span>
+        <button class="wechat-donate-btn wechat-contact-btn" @click="showContact = !showContact">
+          {{ showContact ? '收起' : '展开二维码' }}
+        </button>
+      </div>
     </div>
+
     <Transition name="donate-fade">
-      <div v-if="showQr" class="wechat-donate-qr">
+      <div v-if="showDonate" class="wechat-donate-qr">
         <img src="/assets/wechat-donate.jpg" alt="微信打赏二维码" width="180" />
         <p class="wechat-donate-hint">觉得有用，请作者喝杯咖啡 ☕</p>
+      </div>
+    </Transition>
+
+    <Transition name="donate-fade">
+      <div v-if="showContact" class="wechat-donate-qr">
+        <img src="/assets/wecom-contact.jpg" alt="加好友二维码" width="180" />
+        <p class="wechat-donate-hint">扫码加好友，聊聊插件定制化开发 🤝</p>
       </div>
     </Transition>
   </div>
@@ -18,7 +38,8 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
-const showQr = ref(true);
+const showDonate = ref(true);
+const showContact = ref(false);
 </script>
 
 <style scoped>
@@ -28,7 +49,14 @@ const showQr = ref(true);
   padding-top: 24px;
 }
 
+.wechat-donate-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
 .wechat-donate-inner {
+  flex: 1 1 280px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -60,6 +88,16 @@ const showQr = ref(true);
 
 .wechat-donate-btn:hover {
   background: #07c160;
+  color: #fff;
+}
+
+.wechat-contact-btn {
+  border-color: #576b95;
+  color: #576b95;
+}
+
+.wechat-contact-btn:hover {
+  background: #576b95;
   color: #fff;
 }
 
